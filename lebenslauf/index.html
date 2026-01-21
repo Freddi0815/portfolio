@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebenslauf von Benjamin Kuhnert</title>
+    <meta name="description" content="Kurzübersicht – Lebenslauf von Benjamin Kuhnert.">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <a class="skip-link" href="#content">Zum Inhalt springen</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <h1 class="brand-title">Benjamin Kuhnert</h1>
+            </div>
+
+            <nav class="site-nav" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Übersicht</a></li>
+                    <li><a href="ueber-mich.html">Profil</a></li>
+                    <li><a href="faehigkeiten.html">EDV-Kenntnisse</a></li>
+                    <li><a href="erfahrung.html">Praktikum</a></li>
+                    <li><a href="ausbildung.html">Zeugnisse</a></li>
+                    <li><a href="anschreiben.html">Anschreiben</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="content" class="container">
+        <!-- NEU: Layout wie im Screenshot (Foto links, große Box rechts, 4 Kacheln darunter) -->
+        <section class="cv-hero" aria-labelledby="cv-hero-title">
+            <div class="cv-grid">
+                <figure class="profile">
+                    <!-- Bildpfad ggf. anpassen -->
+                    <img src="src/img/profil.png" alt="Portraitfoto von Benjamin Kuhnert" width="260" height="320" loading="lazy">
+                </figure>
+
+                <div class="info-card">
+                    <div class="info-head">
+                        <h2 id="cv-hero-title" class="info-title">Persönliche Daten</h2>
+                    </div>
+
+                    <!-- Semantisch passender als <ul> für Schlüssel/Wert -->
+                    <dl class="info-list">
+                        <div>
+                            <dt>Name</dt>
+                            <dd><strong>Benjamin Kuhnert</strong></dd>
+                        </div>
+                        <div>
+                            <dt>Adresse</dt>
+                            <dd><strong>Ort: Empelde
+                                <br>PLZ: 30952
+                                <br>Straße: Homannstraße 20A
+                            </strong></dd>
+                        </div>
+                        <div>
+                            <dt>Kontakt</dt>
+                            <dd>
+                                <strong>
+                                    Telefon:
+                                    <a href="tel:+4917664119376">01766 4119376</a>
+                                    <br>
+                                    E-Mail:
+                                    <a href="mailto:freddi1808@gmx.de">freddi1808@gmx.de</a>
+                                </strong>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>Geburtstag</dt>
+                            <dd><strong>18.08.2009</strong></dd>
+                        </div>
+                        <div>
+                            <dt>Staatsangehörigkeit</dt>
+                            <dd><strong>Deutsch</strong></dd>
+                        </div>
+                    </dl>
+
+                    <div class="actions">
+                        <a class="btn" href="anschreiben.html">Anschreiben öffnen</a>
+                        <a class="btn btn-ghost" href="erfahrung.html">Praktikum ansehen</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tiles" aria-label="Schnellzugriff">
+                <a class="tile" href="ausbildung.html">
+                    <span class="tile-title">Zeugnisse</span>
+                    <span class="tile-sub">Abschlüsse</span>
+                </a>
+                <a class="tile" href="ueber-mich.html">
+                    <span class="tile-title">Profil</span>
+                    <span class="tile-sub">Kurzvorstellung</span>
+                </a>
+                <a class="tile" href="erfahrung.html">
+                    <span class="tile-title">Praktikum</span>
+                    <span class="tile-sub">Abgeschlossene Praktika</span>
+                </a>
+                <a class="tile" href="faehigkeiten.html">
+                    <span class="tile-title">EDV-Kenntnisse</span>
+                    <span class="tile-sub">EDV-Vorwissen</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Benjamin Kuhnert</p>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+    <script src="src/js/animations.js"></script>
+</body>
+</html>

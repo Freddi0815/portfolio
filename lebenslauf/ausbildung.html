@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ausbildung – Benjamin Kuhnert</title>
+  <link rel="stylesheet" href="src/css/main.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="brand-title">Benjamin Kuhnert</h1>
+      </div>
+
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html">Übersicht</a></li>
+          <li><a href="ueber-mich.html">Profil</a></li>
+          <li><a href="faehigkeiten.html">EDV Kenntnisse</a></li>
+          <li><a href="erfahrung.html">Praktikum</a></li>
+          <li><a href="ausbildung.html" aria-current="page">Zeugnisse</a></li>
+          <li><a href="anschreiben.html">Anschreiben</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <section class="section-card">
+      <h2>Zeugnisse</h2>
+      <p class="muted">Abschlüsse/Zeugnisse.</p>
+
+      <!-- Ausklappbare Zeugnisse (Dateinamen in src/img/ anpassen) -->
+      <div class="zeugnisse">
+        <details class="zeugnis-item">
+          <summary><strong>2026</strong> – Neustes Zeugniss</summary>
+          <div class="zeugnis-content">
+            <figure>
+              <img
+                src="src/img/zeugnis-2026.jpg"
+                alt="Zeugnis 2026 (Vorschau)"
+                loading="lazy"
+              >
+            
+            </figure>
+          </div>
+        </details>
+
+        <details class="zeugnis-item">
+          <summary><strong>2025</strong> – Jahreszeugnis</summary>
+          <div class="zeugnis-content">
+            <figure>
+              <img
+                src="src/img/zeugnis-2025.jpg"
+                alt="Zeugnis 2025 (Vorschau)"
+                loading="lazy"
+              >
+             
+            </figure>
+          </div>
+        </details>
+
+        <!-- Weitere Jahre: Block kopieren, Jahr/Datei/Alt-Text anpassen -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Benjamin Kuhnert</p>
+    </div>
+  </footer>
+</body>
+</html>
